@@ -14,7 +14,7 @@
     window.generateWordDoc = function(data) {
       console.log("Data received from Storyline:", data);
 
-      fetch("https://github.com/FranHeathorn/journalDownload.git/pdf download assets/template.docx")
+      fetch("https://franheathorn.github.io/journalDownload/template.docx")
         .then(res => res.arrayBuffer())
         .then(content => {
           try {
